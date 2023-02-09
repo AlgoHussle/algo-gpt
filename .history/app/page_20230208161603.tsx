@@ -1,8 +1,5 @@
 import { 
-    BoltIcon, 
-    ExclamationTriangleIcon, 
-    SunIcon 
-} from '@heroicons/react/24/outline'
+    BoltIcon, ExclamationTriangleIcon, SunIcon } from '@heroicons/react/24/outline'
 
 function Homepage() {
     return (
@@ -10,7 +7,7 @@ function Homepage() {
         px-2 text-white">
             <h1 className="text-5xl font-bold mb-20">AlgoHussleGPT </h1>
 
-        <div className='flex space-x-2 text-center'>
+        <div>
             <div>
                 <div className="flex flex-col items-center justify-center mb-5">
                     {/* Sun Icon */}

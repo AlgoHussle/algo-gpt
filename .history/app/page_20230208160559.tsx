@@ -1,8 +1,4 @@
-import { 
-    BoltIcon, 
-    ExclamationTriangleIcon, 
-    SunIcon 
-} from '@heroicons/react/24/outline'
+import { BoltIcon, ExclamationTriangleIcon, SunIcon } from '@heroicons/react/24/outline'
 
 function Homepage() {
     return (
@@ -10,7 +6,7 @@ function Homepage() {
         px-2 text-white">
             <h1 className="text-5xl font-bold mb-20">AlgoHussleGPT </h1>
 
-        <div className='flex space-x-2 text-center'>
+        <div>
             <div>
                 <div className="flex flex-col items-center justify-center mb-5">
                     {/* Sun Icon */}
@@ -33,8 +29,8 @@ function Homepage() {
                 </div>
 
                 <div className="space-y-2">
-                    <p className="infoText">"Change the AlgoGPT model"</p>
-                    <p className="infoText">"Messages are stored in Firebase's Firestore"</p>
+                    <p className="infoText">"Change the AlgoGPT model to use"</p>
+                    <p className="infoText">"Messages are stored in Forebase's Firestore"</p>
                     <p className="infoText">"Hot Toast notifications when AlgoGPT is thinking"</p>
                 </div>
             </div>
@@ -47,9 +43,9 @@ function Homepage() {
                 </div>
 
                 <div className="space-y-2">
-                    <p className="infoText">"May occasionally generate incorrect answers"</p>
-                    <p className="infoText">"May occasionally produce harmful instructions or biased content"</p>
-                    <p className="infoText">"Limited knowledge of world events after 2021"</p>
+                    <p className="infoText">"Explain something to me"</p>
+                    <p className="infoText">"What is the difference between shark and fish?"</p>
+                    <p className="infoText">"What is the color of the planet Mercury"</p>
                 </div>
             </div>
         </div>
