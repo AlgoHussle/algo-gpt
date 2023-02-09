@@ -1,4 +1,3 @@
-import SideBar from '../components/SideBar'
 import '../styles/globals.css'
 
 export default function RootLayout({
@@ -10,9 +9,9 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <div className='flex'> 
-        <SideBar />
-        
+        <div>        
+        {/* Sidebar */}
+        <SideBar
         {/* ClientProvider - notfication */}
 
         <div className='bg-[#343541] flex-1'>{children}</div>
