@@ -13,7 +13,7 @@ function Login() {
             alt="logo"
             />
             <button onClick={() => signIn("google")} 
-                    className='text-white font-bold text-3xl animate-pulse'
+                    className='button text-white font-bold text-3xl animate-pulse'
                     >
                         Sign in to use AlgoGPT
             </button>
